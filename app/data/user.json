@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "firstname": "Alice",
+    "lastname": "Smith",
+    "address": {
+      "city": "Townsville"
+    },
+    "email": "alice.smith@example.com",
+    "phonenumber": "555-555-1111"
+  },
+  {
+    "id": 2,
+    "firstname": "Bobby",
+    "lastname": "Johnson",
+    "address": {
+      "city": "Villagetown"
+    },
+    "email": "bob.johnson@example.com",
+    "phonenumber": "555-555-2222"
+  },
+  {
+    "id": 3,
+    "firstname": "Eva",
+    "lastname": "Miller",
+    "address": {
+      "city": "Hamletville"
+    },
+    "email": "eva.miller@example.com",
+    "phonenumber": "555-555-3333"
+  },
+  {
+    "id": 4,
+    "firstname": "David",
+    "lastname": "Brown",
+    "address": {
+      "city": "Mountainview"
+    },
+    "email": "david.brown@example.com",
+    "phonenumber": "555-555-4444"
+  },
+  {
+    "id": 5,
+    "firstname": "Grace",
+    "lastname": "Davis",
+    "address": {
+      "city": "Rivertown"
+    },
+    "email": "grace.davis@example.com",
+    "phonenumber": "555-555-5555"
+  },
+  {
+    "id": 6,
+    "firstname": "Henry",
+    "lastname": "Evans",
+    "address": {
+      "city": "Meadowville"
+    },
+    "email": "henry.evans@example.com",
+    "phonenumber": "555-555-6666"
+  },
+  {
+    "id": 7,
+    "firstname": "Ivy",
+    "lastname": "Fisher",
+    "address": {
+      "city": "Valleytown"
+    },
+    "email": "ivy.fisher@example.com",
+    "phonenumber": "555-555-7777"
+  },
+  {
+    "id": 8,
+    "firstname": "Jack",
+    "lastname": "Gibson",
+    "address": {
+      "city": "Islandville"
+    },
+    "email": "jack.gibson@example.com",
+    "phonenumber": "555-555-8888"
+  },
+  {
+    "id": 9,
+    "firstname": "Kelly",
+    "lastname": "Harrison",
+    "address": {
+      "street": "777 Oakwood St",
+      "city": "Forestville"
+    },
+    "email": "kelly.harrison@example.com",
+    "phonenumber": "555-555-9999"
+  },
+  {
+    "id": 10,
+    "firstname": "Leo",
+    "lastname": "Irwen",
+    "address": {
+      "street": "888 Redwood St",
+      "city": "Grovewood"
+    },
+    "email": "leo.irwin@example.com",
+    "phonenumber": "555-555-0000"
+  }
+]
