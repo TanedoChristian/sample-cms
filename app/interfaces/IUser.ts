@@ -2,9 +2,7 @@ export default interface IUser {
   id?: number;
   firstname: string;
   lastname: string;
-  address: {
-    city: string;
-  };
+  address: string;
   email: string;
   phonenumber: string;
 }
