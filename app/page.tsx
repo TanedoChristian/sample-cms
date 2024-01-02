@@ -396,7 +396,7 @@ export default function Home() {
                 </thead>
                 <tbody className="bg-gray-800">
                   {users?.map((user: IUser) => (
-                    <tr className="bg-black bg-opacity-20">
+                    <tr key={user.id} className="bg-black bg-opacity-20">
                       <td className="pl-4">{user.id}</td>
                       <td className="flex px-6 py-4 whitespace-nowrap">
                         <span className="ml-2 font-medium">
