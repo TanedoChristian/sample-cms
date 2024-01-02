@@ -178,7 +178,7 @@ export default function Home() {
                       <input
                         type="text"
                         onChange={(e: any) => handleChange(e)}
-                        name="address.city"
+                        name="address"
                         id="password"
                         className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                         required
@@ -304,7 +304,7 @@ export default function Home() {
                         type="text"
                         onChange={(e: any) => handleChange(e)}
                         name="address.city"
-                        value={user?.address.city}
+                        value={user?.address}
                         id="password"
                         className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                         required
@@ -413,7 +413,7 @@ export default function Home() {
                         {user.phonenumber}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        {user.address.city}
+                        {user.address}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap flex gap-5">
                         <button onClick={() => handleUpdate(user)}>

@@ -2,10 +2,8 @@
   {
     "id": 1,
     "firstname": "Alice",
-    "lastname": "Smith",
-    "address": {
-      "city": "Townsville"
-    },
+    "lastname": "Smiths",
+    "address": "Townsville",
     "email": "alice.smith@example.com",
     "phonenumber": "555-555-1111"
   },
@@ -13,9 +11,7 @@
     "id": 2,
     "firstname": "Bobby",
     "lastname": "Johnson",
-    "address": {
-      "city": "Villagetown"
-    },
+    "address": "Hamletville",
     "email": "bob.johnson@example.com",
     "phonenumber": "555-555-2222"
   },
@@ -23,9 +19,7 @@
     "id": 3,
     "firstname": "Eva",
     "lastname": "Miller",
-    "address": {
-      "city": "Hamletville"
-    },
+    "address": "Hamletville",
     "email": "eva.miller@example.com",
     "phonenumber": "555-555-3333"
   },
@@ -33,9 +27,7 @@
     "id": 4,
     "firstname": "David",
     "lastname": "Brown",
-    "address": {
-      "city": "Mountainview"
-    },
+    "address": "Mountainview",
     "email": "david.brown@example.com",
     "phonenumber": "555-555-4444"
   },
@@ -43,9 +35,7 @@
     "id": 5,
     "firstname": "Grace",
     "lastname": "Davis",
-    "address": {
-      "city": "Rivertown"
-    },
+    "address": "Rivertown",
     "email": "grace.davis@example.com",
     "phonenumber": "555-555-5555"
   },
@@ -53,9 +43,7 @@
     "id": 6,
     "firstname": "Henry",
     "lastname": "Evans",
-    "address": {
-      "city": "Meadowville"
-    },
+    "address": "Meadowville",
     "email": "henry.evans@example.com",
     "phonenumber": "555-555-6666"
   },
@@ -63,9 +51,7 @@
     "id": 7,
     "firstname": "Ivy",
     "lastname": "Fisher",
-    "address": {
-      "city": "Valleytown"
-    },
+    "address": "Valleytown",
     "email": "ivy.fisher@example.com",
     "phonenumber": "555-555-7777"
   },
@@ -73,9 +59,7 @@
     "id": 8,
     "firstname": "Jack",
     "lastname": "Gibson",
-    "address": {
-      "city": "Islandville"
-    },
+    "address": "Islandville",
     "email": "jack.gibson@example.com",
     "phonenumber": "555-555-8888"
   },
@@ -83,22 +67,8 @@
     "id": 9,
     "firstname": "Kelly",
     "lastname": "Harrison",
-    "address": {
-      "street": "777 Oakwood St",
-      "city": "Forestville"
-    },
+    "address": "777 Oakwood St",
     "email": "kelly.harrison@example.com",
     "phonenumber": "555-555-9999"
-  },
-  {
-    "id": 10,
-    "firstname": "Leo",
-    "lastname": "Irwen",
-    "address": {
-      "street": "888 Redwood St",
-      "city": "Grovewood"
-    },
-    "email": "leo.irwin@example.com",
-    "phonenumber": "555-555-0000"
   }
 ]
