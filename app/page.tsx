@@ -36,6 +36,7 @@ export default function Home() {
           text: "Deleted",
         });
         setSuccess(!success);
+        setAddModal(false)
       })
       .catch((err) => console.log(err));
   };
@@ -54,6 +55,7 @@ export default function Home() {
           text: "Updated",
         });
         setSuccess(!success);
+        setShowModal(false)
       })
       .catch((err) => console.log(err));
   };
@@ -131,7 +133,7 @@ export default function Home() {
                 </div>
 
                 <div className="p-4 md:p-5">
-                  <form className="space-y-4" action="#">
+                  <div className="space-y-4">
                     <div>
                       <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                         Last name
@@ -204,7 +206,7 @@ export default function Home() {
                     >
                       Add
                     </button>
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>
@@ -253,7 +255,7 @@ export default function Home() {
                 </div>
 
                 <div className="p-4 md:p-5">
-                  <form className="space-y-4" action="#">
+                  <div className="space-y-4">
                     <div>
                       <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                         Last name
@@ -331,7 +333,7 @@ export default function Home() {
                     >
                       Add
                     </button>
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>
